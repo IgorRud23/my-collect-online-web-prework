@@ -5,6 +5,6 @@ end
 def my_collect(languages)
   languages.collect do |lang|
     lang.upcase
-    yield languages
+    yield lang
   end
 end
