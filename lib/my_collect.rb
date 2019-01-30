@@ -1,3 +1,3 @@
 def my_collect(empty_array)
-x = []
+empty_array = []
 end
