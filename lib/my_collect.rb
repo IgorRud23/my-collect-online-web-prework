@@ -3,4 +3,5 @@ empty_array = []
 end
 
 def my_collect(languages)
+  return languages.upcase
 end
