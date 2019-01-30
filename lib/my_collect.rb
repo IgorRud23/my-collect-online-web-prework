@@ -3,5 +3,7 @@ empty_array = []
 end
 
 def my_collect(languages)
-  return languages.upcase
+  languages.collect do |lang|
+    lang.upcase
+  end
 end
