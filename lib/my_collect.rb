@@ -1,8 +1,5 @@
-def my_collect(empty_array)
-empty_array = []
-end
-
 def my_collect(languages)
+  empty_array = []
   languages.collect do |lang|
     lang.upcase
     yield lang
